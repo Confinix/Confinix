@@ -94,6 +94,15 @@
                 </div>
             </div>
         </section>
+        
+        <section class="tile-section">
+            <div class="tile-card">
+                <h3 class="tile-title">Explore Our Live Product</h3>
+                <p class="tile-description">Check out the Confinix Exchange Rate Tracker, a powerful dashboard for real-time currency monitoring.</p>
+                <a href="https://exrates.confinix.com" target="_blank" class="cta-button">View App</a>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">
@@ -148,7 +157,7 @@
         }, observerOptions);
 
         // Observe all sections
-        document.querySelectorAll('.section').forEach(section => {
+        document.querySelectorAll('.section, .tile-section').forEach(section => {
             observer.observe(section);
         });
 
